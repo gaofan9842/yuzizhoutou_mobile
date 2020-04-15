@@ -1,0 +1,74 @@
+/* ------------尾部css------------- */
+.d_we{
+    background-image: url('../img/common/footer-bg.jpg');
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.d_we_con{
+    display: flex;
+    color: #9f9f9f;
+    justify-content: space-around;
+}
+.d_obj>p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.d_obj>p:first-child{
+    color: #f1f1f1;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.nav-link{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* 抢购方式 */
+.buying{
+    background-image: url(../images/blog/wooden-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+.buying h1{
+    color: #D9534F; 
+    font-weight: 900; 
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.buying h2{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-seirf;
+    line-height: 55px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.buying .ewm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+.buying .gd_btn{
+    height: 120px;
+    padding-top: 60px;
+    text-align: center;
+}
+.buying .gd_btn_a{
+    background-color: #ef5350;
+    border-radius: 28px;
+    border: 1px solid #ef5350;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 15px 40px 15px 40px;
+    text-decoration: none;
+}
+.buying .gd_btn_a:hover{
+    background-color: rgba(0,0,0,0);
+    color: #ef5350;
+}

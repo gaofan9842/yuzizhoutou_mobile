@@ -1,0 +1,226 @@
+
+/* banner */
+#cake_banner{
+    --swiper-theme-color: #ff6600;/* 设置Swiper风格 */
+    --swiper-navigation-color: #b4b4b4;/* 单独设置按钮颜色 */
+    --swiper-navigation-size: 30px;/* 设置按钮大小 */
+}
+/* @media (max-width: 575px) {
+    #cake_banner{
+        padding-top: 45.7px;
+    }
+}
+@media (min-width: 576px) {
+    #cake_banner{
+        padding-top: 52.5px;
+    }
+}
+@media (min-width: 768px) {
+    #cake_banner{
+        padding-top: 59.6px;
+    }
+}
+@media (min-width: 992px) {
+    #cake_banner{
+        padding-top: 66.7px;
+    }
+}
+@media (min-width: 1200px) {
+    #cake_banner{
+        padding-top: 81px;
+    }
+}
+@media (min-width: 1370px) {
+    #cake_banner{
+        padding-top: 88px;
+    }
+} */
+
+/* agent menu */
+.agent_menu{
+    /* padding-top: 70px; */
+}
+.agent_title{
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    text-align: center;
+    transition: .5s;
+}
+.agent_menu .d_nav{
+    font-size: 12px;
+    padding: .4rem 1.8rem;
+    border: 1px solid #999;
+    margin: 0 .2rem;
+}
+.agent_menu .d_nav:hover{
+    background: #333;
+    color: #fff;
+}
+/* ----------------------新品css---------------------- */
+.d_item{
+    width: 24%;
+    cursor: pointer;
+}
+.d_item img{
+    width: 100%;
+}
+.d_btn{
+    text-align: center;
+    margin-top: 60px;
+}
+.d_next{
+    border: 1px solid #666;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 8px 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.d_next:hover{
+    background: #333;
+    color: #fff;
+    color: #fff!important;
+    border: none;
+}
+.d_more{
+    border: 1px solid #666;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 8px 45px;
+    cursor: pointer;
+}
+.d_more:hover{
+    background: #333;
+    color: #fff!important;
+    border: none;
+}
+.nav{
+    margin-bottom: 40px;
+}
+/* -----------精选蛋糕css---------- */
+.d_handpick{
+    background: #f2f2f2;
+    /* margin-top: 80px; */
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.d_title{
+    font-size: 37px;
+    margin-bottom: 60px;
+}
+.agent_menu .d_screen{
+    font-size: 14px;
+    padding: .4rem 1.8rem;
+    margin: 0 .1rem;
+    background: #fff;
+    color: #666;
+}
+.agent_menu .d_screen:hover{
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.agent_menu .nav-item{
+    margin-bottom: 3px;
+}
+.agent_menu .active{
+    background: #333;
+    color: #fff;
+    border: none;
+}
+.d_like{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.d_like>div:nth-child(4), .d_like>div:nth-child(8){
+    margin-right: 0;
+}
+.d_card{
+    width: 24.3%;
+    margin-right: 0.9%;
+    background: #fff;
+    box-sizing: border-box;
+    margin-bottom: 0.9%;
+    position: relative;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.d_card img{
+    width: 100%;
+    height: 11.5vw;
+    position: relative;
+    z-index: 1;
+}
+.d_card>div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 11.5vw;
+    display: block;
+    background: #333;
+    opacity: .6;
+    z-index: 2;
+    transition: all 1s ease 0s;
+}
+.d_card div:hover{
+    opacity: 0;
+    cursor: pointer;           
+}
+.d_card p{
+    text-align: center;
+    padding: 15px 0;
+}
+.d_more2{
+    border: 1px solid #666;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 10px 55px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.d_more2:hover{
+    background: #333;
+    color: #fff!important;
+    border: none;
+}
+/* -------------我们的优势css------------- */
+.container h4{
+    text-align: center;
+    margin-top: 40px;
+}
+.d_service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.d_service img{
+    width: 80px;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.d_card2{
+    margin-top: 70px;
+}
+.d_card2>.d_con{
+    display: inline-block;
+}
+.d_con>p:first-child{
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+}
+.d_con>p:last-child{
+    color: #999;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.d_footer{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 14px;
+}

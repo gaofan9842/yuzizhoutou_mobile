@@ -1,0 +1,188 @@
+.gd_header{
+    background: url(../images/blog/1.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 75px 0;
+}
+.gd_header h1{
+    font-weight: 600;
+}
+.gd_header img{
+    margin-left: 60px;
+}
+.gd_header div{
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.gd_con{
+    margin-top: 150px;
+}
+.gd_con h1{
+    font-size: 50px;
+}
+.gd_con .gd_remark{
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    color: #777;
+    line-height: 2em;
+    width: calc(350px + 30%);
+}
+.gd_con .gd_remark b{
+    color: #1b1b1b;
+    font-size: 18px;
+}
+.gd_con .gd_intro img{
+    position: relative;
+    left: 20px;
+}
+.gd_con .intro{
+    background: #1B1B1B;
+    color: #fff;
+    padding: 144px 64px;
+}
+.gd_con h3{
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+.ss_con{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: calc(4% + 40px);
+}
+.ss_con>p{
+    width: 45%;
+}
+.ss_con>p img{
+    width: 100%;
+    background: #eee;
+    padding: 6px;
+}
+.ss_con .enlis{
+    display: block;
+    margin: 0.8em 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: #000;
+
+}
+.ss_con h5{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #f60b0e;
+    font-weight: 600;
+}
+.ss_con .ss_left{
+    width: 54%;
+}
+.ss_con .para{
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    color: #777;
+    line-height: 2em;
+    margin-top: 40px;
+}
+.gd_tit{
+    color: #1b1b1b;
+    font-size: 3.2em;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: .7em;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    margin-top: 100px;
+}
+#cook_banner .swiper_btn{
+    color: #999;
+    border: 3px solid #999;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: all 1s;
+}
+#cook_banner .swiper_btn:hover{
+    color: #222;
+    border: 3px solid #222;
+}
+#cook_banner .swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 14px;
+    font-weight: 600;
+}
+#cook_banner{
+    margin-bottom: 50px;
+}
+.swiper-container{
+    --swiper-theme-color: #222;
+    --swiper-pagination-color: #222;/* 两种都可以 */
+}
+.buying{
+    background-image: url(../images/blog/wooden-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+.buying h1{
+    color: #D9534F; 
+    font-weight: 900; 
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.buying h2{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-seirf;
+    line-height: 55px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.buying .ewm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+.buying .gd_btn{
+    height: 120px;
+    padding-top: 60px;
+    text-align: center;
+}
+.buying .gd_btn_a{
+    background-color: #ef5350;
+    border-radius: 28px;
+    border: 1px solid #ef5350;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 15px 40px 15px 40px;
+    text-decoration: none;
+}
+.buying .gd_btn_a:hover{
+    background-color: rgba(0,0,0,0);
+    color: #ef5350;
+}
+.cake_navbar{
+    background-color: #fff;
+}
+@media (max-width: 640px){
+    .about-top {
+        width: 100%;
+        padding: 0 5%;
+    }
+    .ss_con .ss_left{
+        width: 100%;
+    }
+    .ss_con>p{
+        width: 100%;
+    }
+}

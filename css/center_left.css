@@ -1,0 +1,29 @@
+/* -----------个人中心左边侧栏css-------------- */
+.center{
+    background: #f2f2f2;
+    height: 80vh;
+    padding-top: 30px;
+}
+.left_center{
+    background: #fff;
+    margin-right: 1.5%;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    padding-left: 3%;
+    padding-top: 20px;
+}
+.left_center>a:first-child{
+    font-size: 17px;
+    color: #333;
+}
+.left_center>a{
+    padding-bottom: 30px;
+    font-size: 14px;
+    color: #666!important;
+    display: block;
+    text-decoration: none;
+}
+.left_center>.active{
+    color: #62a8ea!important;
+}
